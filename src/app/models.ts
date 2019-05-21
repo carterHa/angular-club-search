@@ -8,5 +8,6 @@ export interface IClubs {
   meetingRoom:   string;
   description:   string;
   mapImage:       string;
+  calendarImage:  string;
 
 }

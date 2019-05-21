@@ -13,11 +13,12 @@ import { DetailsComponent } from './details/details.component';
 import { SearchComponent } from './search/search.component';
 import { ListFilterPipe } from './list/list-filter.pipe';
 import { MapComponent } from './map/map.component';
+import { PseudoCalendarComponent } from './pseudo-calendar/pseudo-calendar.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, HttpClientModule,MaterialsModule,BrowserAnimationsModule ],
-  declarations: [ AppComponent, ClubFinderComponent, ListComponent, DetailsComponent, SearchComponent, ListFilterPipe, MapComponent],
+  declarations: [ AppComponent, ClubFinderComponent, ListComponent, DetailsComponent, SearchComponent, ListFilterPipe, MapComponent, PseudoCalendarComponent],
   bootstrap:    [ AppComponent ],
   providers: [ClubsService]
 })

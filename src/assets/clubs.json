@@ -8,7 +8,8 @@
         "meetingBuilding": "Samuelson",
         "meetingRoom": "221",
         "description": "This is the club description for the D&D Club.",
-        "mapImage": "https://imgur.com/Upi5M5C"
+        "mapImage": "https://imgur.com/Upi5M5C",
+        "calendarImage": "https://imgur.com/MJjIsKc"
     },
     {
         "name": "International Club",
@@ -19,7 +20,8 @@
         "meetingBuilding": "SURC",
         "meetingRoom": "139",
         "description": "This is the club description for the International Club.",
-        "mapImage": "https://imgur.com/lDEUBwr"
+        "mapImage": "https://imgur.com/lDEUBwr",
+        "calendarImage": "https://imgur.com/tO8EyZC"
     },
     {
         "name": "Music Club",
@@ -30,7 +32,8 @@
         "meetingBuilding": "McIntyre Music",
         "meetingRoom": "101",
         "description": "This is the club description for the Music Club.",
-        "mapImage": "https://imgur.com/4FwPXTM"
+        "mapImage": "https://imgur.com/4FwPXTM",
+        "calendarImage": "https://imgur.com/GTdDHHs"
     },
     {
         "name": "Psychology Club",
@@ -41,7 +44,8 @@
         "meetingBuilding": "Psychology",
         "meetingRoom": "206",
         "description": "This is the club description for the Psychology Club.",
-        "mapImage": "https://imgur.com/uasErY3"
+        "mapImage": "https://imgur.com/uasErY3",
+        "calendarImage": "https://imgur.com/ywEHsD5"
     }
     
 ]
