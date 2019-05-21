@@ -12,7 +12,7 @@ export class MapComponent{
   public club;
 
   constructor(public dialog: MatDialog) {
-    
+
   }
 
 }
