@@ -27,8 +27,8 @@ import {
   MatTableModule,
   MatTabsModule,
   MatToolbarModule,
-  MatTooltipModule,
-  MatTreeModule,
+  MatTooltipModule
+  //MatTreeModule,
 
 } from '@angular/material';
 
@@ -60,8 +60,8 @@ import {
     MatTableModule,
     MatTabsModule,
     MatToolbarModule,
-    MatTooltipModule,
-    MatTreeModule,
+    MatTooltipModule
+    //MatTreeModule,
   ],
 
   exports: [
@@ -91,8 +91,8 @@ import {
     MatTableModule,
     MatTabsModule,
     MatToolbarModule,
-    MatTooltipModule,
-    MatTreeModule,
+    MatTooltipModule
+    //MatTreeModule,
   ],
 })
 export class MaterialsModule {}
