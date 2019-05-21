@@ -1,8 +1,76 @@
 <html>
-  <head>
-    <title>Angular App</title>
-  </head>
+	<head>
+		<title>Club Navigator</title>
+		<meta charset="UTF-8">
+		<link href='node_modules/@fullcalendar/core/main.css' rel='stylesheet' />
+		<link href='node_modules/@fullcalendar/daygrid/main.css' rel='stylesheet' />
+		<link href='node_modules/@fullcalendar/timegrid/main.css' rel='stylesheet' />
+		<link href='node_modules/@fullcalendar/list/main.css' rel='stylesheet' />
+		<script src='src/example.js'></script>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<script language="javascript">
+					function changeImage1() {
+					map.src="selectionOne.png";
+					}
+					function changeImage2() {
+					map.src="selectionTwo.png";
+					}
+					function changeImage3() {
+					map.src="selectionThree.png";
+					}
+					function changeImage4() {
+					map.src="selectionFour.png";
+					}
+				</script>
+				<link href='fullcalendar/core/main.css' rel='stylesheet' />
+    		<link href='fullcalendar/daygrid/main.css' rel='stylesheet' />
+
+    		<script src='fullcalendar/core/main.js'></script>
+    		<script src='fullcalendar/daygrid/main.js'></script>
+
+			<script>
+
+					document.addEventListener('DOMContentLoaded', function() {
+						var calendarEl = document.getElementById('calendar');
+
+						var calendar = new FullCalendar(calendarEl, {
+							plugins: [ 'dayGrid', 'timeGrid', 'list' ]
+					});
+
+					calendar.render();
+				});
+			</script>
+			
+			</head>
+  
   <body>
   <my-app>loading</my-app>
+          <div>
+						<h2>CALENDAR</h2>
+						<div id="calendar"></div>
+						<div class="dropdown-div">
+
+								<p>calendar goes here!</p>
+						</div>
+					</div>
+
+          	<div class="component-div">
+						<div style="text-align:center">
+							<img id="map" class="map" src="campusWhole.png" />
+							<h2> MAP</h2>
+							<button class ="button">
+							<p style="float:left;vertical-align: middle;"><a href="http://map.cwu.edu/">Interactive Map</a> </p>
+							<img src="newTab.png" style="width:20px; height:20px; margin-top:5%;"/>
+
+							</button>
+							<button class ="button">
+							<p style="float:left; vertical-align: middle;">Print Directions </p>
+							<img src="printer.png" style="width:20px; height: 20px; margin-top:5%;"/>
+
+							</button>
+						</div>
+					</div>
+
+    
   </body>
 </html>
