@@ -1,5 +1,9 @@
 .header {
-  width: 100%;
+  width:97.5%;
+	height:150px;
+	margin:auto;
+	background-image: url('background.jpg');
+	background-position:center;
 }
 .left {
   float: left;

@@ -3,7 +3,6 @@
 }
 mat-selection-list{
   height:40vh;
-  overflow-y: scroll;
   outline:none;
 }
  ::ng-deep.mat-pseudo-checkbox{

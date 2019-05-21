@@ -5,39 +5,39 @@
         "email": "d&dclub@cwu.edu",
         "meetingDate": "Thursday",
         "meetingTime": "5:00pm",
-        "meetingBuilding": "Black Hall",
+        "meetingBuilding": "Samuelson",
         "meetingRoom": "221",
         "description": "This is the club description for the D&D Club."
     },
     {
-        "name": "Soccer Club",
+        "name": "International Club",
         "phone": "xxx-xxx-xxxx",
-        "email": "soccerclub@cwu.edu",
+        "email": "internationalclub@cwu.edu",
         "meetingDate": "Monday",
         "meetingTime": "8:00am",
         "meetingBuilding": "SURC",
         "meetingRoom": "139",
-        "description": "This is the club description for the Soccer Club."
+        "description": "This is the club description for the International Club."
     },
     {
-        "name": "Art Club",
+        "name": "Music Club",
         "phone": "xxx-xxx-xxxx",
         "email": "artclub@cwu.edu",
         "meetingDate": "Tuesday",
         "meetingTime": "5:00pm",
-        "meetingBuilding": "SURC",
+        "meetingBuilding": "McIntyre Music",
         "meetingRoom": "101",
-        "description": "This is the club description for the Art Club."
+        "description": "This is the club description for the Music Club."
     },
     {
-        "name": "Biology Club",
+        "name": "Psychology Club",
         "phone": "xxx-xxx-xxxx",
         "email": "biologyclub@cwu.edu",
         "meetingDate": "Wednesday",
         "meetingTime": "5:00pm",
-        "meetingBuilding": "Samuelson",
+        "meetingBuilding": "Psychology",
         "meetingRoom": "206",
-        "description": "This is the club description for the Biology Club."
+        "description": "This is the club description for the Psychology Club."
     }
     
 ]

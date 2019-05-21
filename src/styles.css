@@ -1,2 +1,99 @@
 /* Add application styles & imports to this file! */
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+#calendar {
+					max-width: 900px;
+					margin: 0 auto;
+				}
+
+			/* -----------------------Divisions----------------------- */
+			div.window	{
+				width:80%;
+				float:center;
+				margin:auto;
+				margin-bottom:auto;
+				background-color:#ffffff;
+				}
+
+			div.header	{
+				width:97.5%;
+				height:150px;
+				margin:auto;
+				background-image: url('background.jpg');
+				background-position:center;
+				background-width:100%;
+				background-height:100%;
+				}
+
+			div.component-holder	{
+				width:50%;
+				margin:auto;
+				}
+
+			div.component-div	{
+                background-color:#a30f37;
+				margin:auto;
+				margin-top:10px;
+				margin-bottom:10px;
+				width:95%;
+				}
+
+			div.dropdown-div{
+				background-color:#e8d2a1;
+				border: 1px solid #a30f37;
+				}
+
+			/* -----------------------Fonts----------------------- */
+			h1	{
+				font-family: Roboto,Verdana,Helvetica,Arial,Sans-serif;
+				font-size:2em;
+			    border: 2px solid #FFF;
+				padding: 8px 16px;
+				font-weight: 500;
+				color:#ffffff;
+				margin:auto;
+				width:80%;
+				text-align:center;
+				}
+
+			h2	{
+			    display: block;
+				font-family: Roboto,Verdana,Helvetica,Arial,Sans-serif;
+				font-weight: 100 !important;
+				font-size: 1.5em;
+			    color: #ffffff;
+				margin:auto;
+				width:80%;
+				text-align:center;
+				text-decoration: none;
+				}
+
+			p	{
+			font-family: Roboto,Verdana,Helvetica,Arial,Sans-serif;
+			font-weight: 100 !important;
+				}
+
+			/* -----------------------Buttons----------------------- */
+			.button{
+			    text-decoration: none;
+                color: #FFF !important;
+                background-color:#a30f37;
+                border:1px;
+				border-style: solid;
+				width:40%;
+				font-size: 12px;
+				cursor: pointer;
+				font-family: Sans-serif;
+				margin-top:5px;
+				margin-bottom:5px;
+			}
+
+			/* -----------------------Images----------------------- */
+			img.map{
+				 display: block;
+				 margin-left: auto;
+				 margin-right: auto;
+				 float:center;
+				 width:99.5%;
+				 border: 1px solid #a30f37;
+				}
