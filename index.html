@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+	<head>
+		<title>Club Navigator</title>
+		<meta charset="UTF-8">
+		<link href='node_modules/@fullcalendar/core/main.css' rel='stylesheet' />
+		<link href='node_modules/@fullcalendar/daygrid/main.css' rel='stylesheet' />
+		<link href='node_modules/@fullcalendar/timegrid/main.css' rel='stylesheet' />
+		<link href='node_modules/@fullcalendar/list/main.css' rel='stylesheet' />
+		<script src='src/example.js'></script>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<script language="javascript">
+					function changeImage1() {
+					map.src="selectionOne.png";
+					}
+					function changeImage2() {
+					map.src="selectionTwo.png";
+					}
+					function changeImage3() {
+					map.src="selectionThree.png";
+					}
+					function changeImage4() {
+					map.src="selectionFour.png";
+					}
+				</script>
+				<link href='fullcalendar/core/main.css' rel='stylesheet' />
+    		<link href='fullcalendar/daygrid/main.css' rel='stylesheet' />
+
+    		<script src='fullcalendar/core/main.js'></script>
+    		<script src='fullcalendar/daygrid/main.js'></script>
+
+				<!--<script>
+
+					document.addEventListener('DOMContentLoaded', function() {
+						var calendarEl = document.getElementById('calendar');
+
+						var calendar = new FullCalendar(calendarEl, {
+							plugins: [ 'dayGrid', 'timeGrid', 'list' ]
+					});
+
+					calendar.render();
+				});
+			</script> -->
+			</head>
+			<style>
+
+				#calendar {
+					max-width: 900px;
+					margin: 0 auto;
+				}
+
+			/* -----------------------Divisions----------------------- */
+			div.window	{
+				width:80%;
+				float:center;
+				margin:auto;
+				margin-bottom:auto
+				background-color:#FFFFF;
+				}
+
+			div.header	{
+				width:97.5%;
+				height:150px;
+				margin:auto;
+				background-image: url('background.jpg');
+				background-position:center;
+				background-width:100%;
+				background-height:100%;
+				}
+
+			div.component-holder	{
+				width:50%;
+				background-color:#FFFFF;
+				margin:auto;
+				}
+
+			div.component-div	{
+                background-color:#a30f37;
+				margin:auto;
+				margin-top:10px;
+				margin-bottom:10px;
+				width:95%;
+				}
+
+			div.dropdown-div{
+				background-color:#e8d2a1;
+				border: 1px solid #a30f37;
+				}
+
+			/* -----------------------Fonts----------------------- */
+			h1	{
+				font-family: Roboto,Verdana,Helvetica,Arial,Sans-serif;
+				font-size:2em;
+			    border: 2px solid #FFF;
+				padding: 8px 16px;
+				font-weight: 500;
+				color:#ffffff;
+				margin:auto;
+				width:80%;
+				text-align:center;
+				}
+
+			h2	{
+			    display: block;
+				font-family: Roboto,Verdana,Helvetica,Arial,Sans-serif;
+				font-weight: 100 !important;
+				font-size: 1.5em;
+			    color: #ffffff;
+				margin:auto;
+				width:80%;
+				text-align:center;
+				text-decoration: none;
+				}
+
+			p	{
+			font-family: Roboto,Verdana,Helvetica,Arial,Sans-serif;
+			font-weight: 100 !important;
+				}
+
+			/* -----------------------Buttons----------------------- */
+			.button{
+			    text-decoration: none;
+                color: #FFF !important;
+                background-color:#a30f37;
+                border:1px;
+				border-style: solid;
+				width:40%;
+				font-size: 12px;
+				cursor: pointer;
+				font-family: Sans-serif;
+				margin-top:5px;
+				margin-bottom:5px;
+			}
+
+			/* -----------------------Images----------------------- */
+			img.map{
+				 display: block;
+				 margin-left: auto;
+				 margin-right: auto;
+				 float:center;
+				 width:99.5%;
+				 border: 1px solid #a30f37;
+				}
+			</style>
+
+			<body><div id='calendar'></div>
+
+		<div class="window">
+
+			<div class="header">
+				<div style="height:30%">
+					</div>
+				<h1 > CWU CLUB NAVIGATOR</h1>
+			</div>
+
+				<div class="component-holder" style="float:left;">
+					<div class="component-div">
+							<h2 > SEARCH FUNCTION</h2>
+							<div class="dropdown-div">
+							<button onclick="changeImage1()" style="display:block"><p>Dungeons and Dragons</p></button>
+							<button onclick="changeImage2()" style="display:block"><p>International Club</p></button>
+							<button onclick="changeImage3()" style="display:block"><p>Music Club</p></button>
+							<button onclick="changeImage4()" style="display:block"><p>Psychology Club</p></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="component-holder" style="float:right;">
+
+					<div class="component-div">
+						<h2>DESCRIPTION</h2>
+						<div class="dropdown-div"><p>club description goes here!</p></div>
+					</div>
+
+					<div class="component-div">
+						<h2>CALENDAR</h2>
+						<div id="calendar"></div>
+						<div class="dropdown-div">
+
+								<p>calendar goes here!</p>
+						</div>
+					</div>
+
+					<div class="component-div">
+						<div style="text-align:center">
+							<img id="map" class="map" src="campusWhole.png" />
+							<h2> MAP</h2>
+							<button class ="button">
+							<p style="float:left;vertical-align: middle;"><a href="http://map.cwu.edu/">Interactive Map</a> </p>
+							<img src="newTab.png" style="width:20px; height:20px; margin-top:5%;"/>
+
+							</button>
+							<button class ="button">
+							<p style="float:left; vertical-align: middle;">Print Directions </p>
+							<img src="printer.png" style="width:20px; height: 20px; margin-top:5%;"/>
+
+							</button>
+						</div>
+					</div>
+				</div>
+		</div>
+		</body>
+	</html>
