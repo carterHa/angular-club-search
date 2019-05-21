@@ -22,6 +22,7 @@ searchModel: string;
 public onSelect(club: IClubs): void {
   this.currentClub = club; 
   this.select.emit(club);
+  
 }
 
 }

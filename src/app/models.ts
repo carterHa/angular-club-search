@@ -7,5 +7,6 @@ export interface IClubs {
   meetingBuilding:   string;
   meetingRoom:   string;
   description:   string;
+  mapImage:       string;
 
 }

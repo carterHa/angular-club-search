@@ -4,6 +4,7 @@
       <app-list [clubs]="clubs" (select)="selectedClub = $event"></app-list>
   </div>
     <div  class="right">
-      <app-details  [club]="selectedClub" (openDialogEdit)="openDialogEdit($event)"></app-details>  
+      <app-details  [club]="selectedClub" (openDialogEdit)="openDialogEdit($event)"></app-details>
+      <app-map  [club]="selectedClub" (openDialogEdit)="openDialogEdit($event)"></app-map> 
     </div>
 </div>
