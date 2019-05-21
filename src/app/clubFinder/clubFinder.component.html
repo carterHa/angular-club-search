@@ -1,0 +1,9 @@
+ <div class="header">
+   <h3>Club Finder</h3>
+  <div  class="left">
+      <app-list [clubs]="clubs" (select)="selectedClub = $event"></app-list>
+  </div>
+    <div  class="right">
+      <app-details  [club]="selectedClub" (openDialogEdit)="openDialogEdit($event)"></app-details>  
+    </div>
+</div>
